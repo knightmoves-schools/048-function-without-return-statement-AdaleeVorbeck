@@ -1,5 +1,5 @@
-const userLog = function(message) {
-    console.log({user: message});
-};
+function logUser(username) {
+    console.log(`user: ${username}`);
+}
 
-document.getElementById("result").innerHTML = userLog("YUUUUUUUHHHHH");
+logUser("YUUUUUUUHHHHH");
